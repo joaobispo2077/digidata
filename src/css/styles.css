@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    font-size: 1.35em;
+}
+
+body {
+    background-color: #fdfdfd;
+    color: #333333;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.card {
+    border-style: inset;
+    border-color: #0099ff;
+    box-shadow: 3px 6px 28px -9px rgba(0, 0, 0, 0.75);
+    margin-bottom: 1.4em;
+    -webkit-box-shadow: 3px 6px 28px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 6px 28px -9px rgba(0, 0, 0, 0.75);
+}
+
+.digImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15em;
+    width: 15em;
+}
+
+img {
+    transition: all ease-in-out .4s;
+}
+
+img:hover {
+    /* opacity: 65%; */
+    cursor: pointer;
+}
+
+.card-body {
+    border-top: .10em solid#0099ff;
+}
+
+.btn {
+    background-color: #00cc99;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #028363;
+}
+
+.container__digimon {
+    margin-top: 50px;
+}
+
+.modal-body {
+    background-color: #ff8080;
+}
